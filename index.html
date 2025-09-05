@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neptun - Správa Nemovitostí</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+               <img class="logo" src="./neptun-removebg-preview.png" alt="Neptun správa nemovitostí">
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="about.html">O nás</a></li>
+                    <li><a href="contact.html">Kontakty</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="about.html">O nás</a></li>
+            <li><a href="contact.html">Kontakty</a></li>
+        </ul>
+    </nav>
+
+    <main class="hero">
+        <div class="container">
+            <h1>Vítejte u Správy Nemovitostí Neptun</h1>
+            <a href="" class="button">Pro zobrazení dat klikněte zde</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Neptun - Správa Nemovitostí. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger-menu');
+        const mobileNav = document.querySelector('.mobile-nav');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
