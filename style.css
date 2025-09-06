@@ -310,7 +310,7 @@ footer {
 }
 
 .hamburger-menu.active .bar:nth-child(1) {
-    transform: translateY(11px) rotate(45deg);
+    transform: translateY(5px) rotate(45deg);
 }
 
 .hamburger-menu.active .bar:nth-child(2) {
@@ -318,5 +318,5 @@ footer {
 }
 
 .hamburger-menu.active .bar:nth-child(3) {
-    transform: translateY(-11px) rotate(-45deg);
+    transform: translateY(-12px) rotate(-45deg);
 }
