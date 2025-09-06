@@ -1,4 +1,3 @@
-/* Základní reset a globální styly */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8faff; /* Velmi světle modro-šedá */
+    background-color: #f8faff;
 }
 
 .container {
@@ -27,9 +26,8 @@ ul {
     list-style: none;
 }
 
-/* Hlavička */
 header {
-    background-color: #ffffff; /* Bílá */
+    background-color: #ffffff; 
     color: #333;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -86,7 +84,6 @@ header .container {
   border-bottom: 2px solid #1e4362;
 }
 
-/* Hamburger menu - Desktop skryté */
 .hamburger-menu {
     display: none;
     cursor: pointer;
@@ -105,11 +102,10 @@ header .container {
     transition: all 0.3s ease;
 }
 
-/* Mobilní navigace - Základně skrytá */
 .mobile-nav {
     display: none;
     position: absolute;
-    top: 70px; /* Výška headeru */
+    top: 70px; 
     right: 0;
     width: 100%;
     background-color: #ffffff;
@@ -149,9 +145,8 @@ header .container {
     color: #1e4362; 
 }
 
-/* Hero sekce (hlavní stránka) */
 .hero {
-    background: linear-gradient(135deg, #ffffff 0%, #d2d5d6 100%); /* Světlejší modro-šedý gradient */
+    background: linear-gradient(135deg, #ffffff 0%, #d2d5d6 100%);
     color: #333;
     text-align: center;
     padding: 100px 20px;
@@ -164,7 +159,7 @@ header .container {
 .hero h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #2c3e50; /* Tmavší modrá pro nadpis */
+    color: #2c3e50; 
 }
 
 .hero p {
@@ -175,7 +170,7 @@ header .container {
 
 .button {
     display: inline-block;
-    background-color: #4a90e2; /* Jasně modrá */
+    background-color: #4a90e2;
     color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
@@ -185,11 +180,10 @@ header .container {
 }
 
 .button:hover {
-    background-color: #357bd8; /* Tmavší modrá při najetí */
+    background-color: #357bd8; 
     transform: translateY(-2px);
 }
 
-/* Obsahové stránky (O nás, Kontakty, Data) */
 .content-page {
     padding: 60px 0;
     background-color: #ffffff;
@@ -219,7 +213,6 @@ header .container {
     margin-bottom: 10px;
 }
 
-/* Sekce Kontakty */
 .contact-info {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -235,7 +228,7 @@ header .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #f0f8ff; /* Velmi světlá modrá */
+    background-color: #f0f8ff; 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
@@ -253,7 +246,7 @@ header .container {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    border: 1px solid #cce7f0; /* Světle modrý okraj */
+    border: 1px solid #cce7f0; 
     border-radius: 4px;
     font-size: 1em;
     transition: border-color 0.3s ease;
@@ -277,16 +270,14 @@ header .container {
     cursor: pointer;
 }
 
-/* Patička */
 footer {
-    background-color: #191919; /* Tmavě modrá */
-    color: #d8d8d8; /* Světle modrá */
+    background-color: #191919;
+    color: #d8d8d8; 
     text-align: center;
     padding: 20px 0;
     font-size: 0.9em;
 }
 
-/* Responzivní design */
 @media (max-width: 768px) {
     .desktop-nav {
         display: none;
@@ -318,7 +309,6 @@ footer {
     }
 }
 
-/* Animace hamburger menu */
 .hamburger-menu.active .bar:nth-child(1) {
     transform: translateY(11px) rotate(45deg);
 }
